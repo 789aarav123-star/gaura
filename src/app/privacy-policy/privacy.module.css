@@ -1,0 +1,14 @@
+.page { padding: clamp(56px, 8vw, 100px) 0; }
+.title { max-width: 12ch; font: 600 clamp(3rem, 6vw, 5rem)/.95 var(--serif); letter-spacing: -.03em; }
+.lead { max-width: 67ch; margin-top: 22px; color: var(--muted); font-size: 1.08rem; line-height: 1.75; }
+.updated { margin-top: 20px; color: var(--navy); font-size: .78rem; font-weight: 700; letter-spacing: .06em; }
+.section { max-width: 75ch; padding: 29px 0; border-top: 1px solid var(--line); }
+.section:first-of-type { margin-top: 38px; }
+.section h2 { margin-bottom: 12px; font: 600 1.65rem/1.1 var(--serif); }
+.section p, .section li { margin: 0 0 12px; color: var(--muted); font-size: .94rem; line-height: 1.75; }
+.section p:last-child { margin-bottom: 0; }
+.section ul { display: grid; gap: 5px; padding-left: 20px; }
+.section li::marker { color: var(--gold); }
+.section a, .back a { color: var(--navy); text-decoration: underline; text-underline-offset: 3px; }
+.back { margin-top: 15px; padding-top: 24px; border-top: 1px solid var(--line); font-size: .9rem; font-weight: 600; }
+@media (max-width: 540px) { .page { padding-top: 44px; } .section { padding: 23px 0; } .lead { font-size: 1rem; } }
